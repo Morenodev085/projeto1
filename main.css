@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(187, 184, 17); 
+    color: #594fe4;
+}
+header ,
+section h2,
+section h3,
+form button {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+}
+body, input,textarea{
+font-family: "Roboto", sans-serif;
+}
+header nav li{ /* controle do cabeçalho */
+    display: inline;
+    margin: 16px;
+    color: #000000;
+    font-size: 18px;
+}
+header nav li a { /* intens da listas */
+    color: #594fe4;
+    text-decoration: none;
+}
+
+.conteiner {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+header .conteiner,
+section .conteiner { /* textto lado a lado (justufycontent) */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteiner img {
+    height: 300px;
+    margin-right: 16px;
+}
+.imagensgoverno img {
+    height: 68px;
+    margin-right: 8px;
+}
+.imagensgoverno li {
+    display: inline;
+}
+section{
+    padding: 24px 0;
+}
+
+#about{
+    background-color: rgb(241, 238, 11);
+}
+section h2 {
+    margin-bottom: 16px;
+}
+.social-links img{
+    height: 24px;
+}
+section .conteiner { 
+    align-items:self-start;
+}
+section p {
+    margin-bottom: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .conteiner{
+    display: block;
+    justify-content: space-between;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+section h3{
+    margin-bottom: 16px;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+form button{
+    background-color: rgb(241, 238, 11);
+}
+form button:hover{
+    background-color: rgb(129, 128, 42);
+}
+
+input:focus, textarea:focus{
+    outline-color:  rgb(192, 190, 73);
+}
+form button{
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+footer{
+    
+    background-color: rgb(241, 238, 11) ;
+    color: #594fe4;
+    padding: 16px;
+}
